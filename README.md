@@ -1,7 +1,7 @@
 # ProyectoDevWeb1
 Mi primer Proyecto de desarrollo Web: HTML + CSS básico 
-
-Hola! Soy Kepa. Tengo 30 añosy soy de La Plata. Este es mi primer proyecto subido a Github como parte de mi meta en convertirme en desarrollador web. Lo realicé mientras estudio el curso Desarrollo Web Full Stack en Henry. Esto representa el inicio de mi portafolio.
+ 
+Hola! Soy Kepa. Tengo 30 año sy soy de La Plata. Este es mi primer proyecto subido a Github como parte de mi meta en convertirme en desarrollador web. Lo realicé mientras estudio el curso Desarrollo Web Full Stack en Henry. Esto representa el inicio de mi portafolio.
 
 ## Sobre el Proyecto
 
