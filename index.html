@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Primera Página</title>
+  <style>
+    body {
+      background-image: url('http://puntogeek.com/wp-content/uploads/2013/12/Screenshot_115.png');  /* Imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: rgba(200, 200, 200, 0.9);  /* Negro con 90% de opacidad */
+    }
+
+    h1 {
+      color: #FFFFFF;
+    }
+
+    p {
+      color: #FFFFFF;
+    }
+
+    .boton {
+      background-color: #C81D11;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .boton i {
+      font-size: 18px;
+    }
+
+    .social-icons {
+      margin-top: 45px;
+    }
+
+    .social-icons a {
+      color: #C81D11; /* Color inicial */
+      font-size: 30px;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s; /* Transición suave de color */
+    }
+
+    .social-icons a:hover {
+      color: #4CAF50; /* Color al pasar el mouse */
+    }
+
+
+ /* 🙋 Sección "Sobre mí" */
+  .sobre-mi {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sobre-mi h2 {
+    color: #C81D11;
+  }
+
+  .sobre-mi p {
+    color: #040404;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <h1>¡Hola!</h1>
+  <p>Esta es mi primera página web. Ten paciencia, ¡Estoy aprendiendo!</p>
+  <a href="https://github.com/Kepa-devweb" class="boton" target="_blank">
+    <i class="fab fa-github"></i> Ir a GitHub
+  </a>
+
+  <div class="social-icons">
+    <!-- YouTube -->
+    <a href="https://www.youtube.com/@kepacs1.6" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path d="M23.49 6.11c-.27-1.02-1.03-1.83-2.02-2.08C19.77 3.01 12 3.01 12 3.01s-7.77 0-9.47.02c-.99.25-1.75 1.06-2.02 2.08C.51 7.13 0 10.2 0 12s.51 4.87 1.51 5.89c.27 1.02 1.03 1.83 2.02 2.08C4.23 20.99 12 20.99 12 20.99s7.77 0 9.47-.02c.99-.25 1.75-1.06 2.02-2.08C23.49 16.87 24 13.8 24 12s-.51-4.87-1.51-5.89zM9.5 15V9l6 3-6 3z"/></svg>
+    </a>
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/kepa1995" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path d="M22 2H2c-1.1 0-1.99.9-1.99 2L0 20c0 1.1.89 2 1.99 2h10.18v-7h-3v-3h3v-2.2c0-3.3 2.54-5.8 5.79-5.8 1.68 0 3.13.12 3.56.17v3.6h-2.5c-1.96 0-2.49.94-2.49 2.36v2.14h4.49l-.56 3h-3.93V22h7.73c1.1 0 1.99-.9 1.99-2V4c0-1.1-.89-2-1.99-2z"/></svg>
+    </a>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/kepagk12/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path d="M12 2.16c3.22 0 3.6.01 4.87.07 1.3.06 2.42.57 3.28 1.43.86.86 1.37 1.98 1.43 3.28.06 1.27.07 1.65.07 4.87s-.01 3.6-.07 4.87c-.06 1.3-.57 2.42-1.43 3.28-.86.86-1.98 1.37-3.28 1.43-1.27.06-1.65.07-4.87.07s-3.6-.01-4.87-.07c-1.3-.06-2.42-.57-3.28-1.43-.86-.86-1.37-1.98-1.43-3.28-.06-1.27-.07-1.65-.07-4.87s.01-3.6.07-4.87c.06-1.3.57-2.42 1.43-3.28.86-.86 1.98-1.37 3.28-1.43 1.27-.06 1.65-.07 4.87-.07zM12 0C8.74 0 8.28.01 7.01.07 5.7.13 4.46.67 3.57 1.57c-.89.89-1.43 2.13-1.49 3.44C2 8.28 2 8.74 2 12c0 3.26.01 3.72.07 4.93.06 1.31.6 2.55 1.49 3.44 1.25 1.25 2.66 1.77 4.01 1.93 1.27.06 1.68.07 4.93.07s3.72-.01 4.93-.07c1.31-.06 2.55-.6 3.44-1.49 1.25-1.25 1.77-2.66 1.93-4.01.06-1.21.07-1.67.07-4.93 0-3.26-.01-3.72-.07-4.93-.06-1.31-.6-2.55-1.49-3.44C19.54.67 18.3.13 17 .07 15.72.01 15.26 0 12 0zM12 5.84a6.16 6.16 0 1 0 0 12.33 6.16 6.16 0 0 0 0-12.33zM18.6 6.07a1.13 1.13 0 1 0 0 2.26 1.13 1.13 0 0 0 0-2.26z"/></svg>
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/leonelserrano22" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path d="M22.23 0H1.77C.79 0 0 .79 0 1.77v20.46c0 .98.79 1.77 1.77 1.77h20.46c.98 0 1.77-.79 1.77-1.77V1.77c0-.98-.79-1.77-1.77-1.77zM7.17 20.46H3.57V9h3.6v11.46zm-1.8-13.17c-1.16 0-1.88-.8-1.88-1.84 0-1.03.72-1.84 1.88-1.84 1.16 0 1.88.81 1.88 1.84 0 1.04-.72 1.84-1.88 1.84zm15.4 13.17h-3.6v-5.69c0-1.35-.48-2.27-1.67-2.27-1.1 0-1.73.73-1.73 1.77v6.19h-3.6V9h3.6v1.55h.05c.5-.95 1.72-1.95 3.16-1.95 2.35 0 3.96 1.54 3.96 4.55v6.36z"/></svg>
+    </a>
+  </div>
+
+</body>
+<section class="sobre-mi">
+  <h2>¿Querés saber algo sobre mí?</h2>
+  <p>Soy Kepa. Estoy comenzando en el mundo del desarrollo web. Estudié algo en Udemy, pero ahora inicié en otro lugar, Henry. Me gusta aprender cosas nuevas y mejorar cada día. No es mucho lo que sé, pero tengo el potencial para aprender y, te lo aseguro, si aprendí esto puedo aprender mucho más.</p>
+</section>
